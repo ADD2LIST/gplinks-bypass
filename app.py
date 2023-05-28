@@ -14,7 +14,7 @@ def gplinks_bypass(url: str):
 
     domain = "https://gplinks.co/"
 
-    referer = "https://mynewsmedia.co/"
+    referer = "https://revadvert.com"
 
     vid = client.get(url, allow_redirects=False).headers["Location"].split("=")[-1]
 
